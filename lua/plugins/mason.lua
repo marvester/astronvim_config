@@ -8,8 +8,9 @@ return {
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
       ensure_installed = {
-        "lua_ls",
-        "tinymist",
+        "lua_ls", -- lua
+        "tinymist", -- typst
+        "bashls", -- bash
         -- add more arguments for adding more language servers
       },
     },
